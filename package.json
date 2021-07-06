@@ -1,0 +1,32 @@
+{
+  "name": "myexpressapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "config": "^3.3.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "~1.9.1",
+    "mysqli": "^3.0.11",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.4",
+    "pug": "2.0.0-beta11",
+    "socket.io": "^2.3.0"
+  }
+}
